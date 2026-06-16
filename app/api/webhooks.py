@@ -75,4 +75,4 @@ async def receive_github_webhook(
     process_webhook_task.delay(x_github_delivery)
 
     # 7. Respond to GitHub quickly!
-    return {"message": "Webhook received successfully", "delivery_id": x_github_delivery}
+    return {"message": "Webhook received successfully done and dusted", "delivery_id": x_github_delivery}
